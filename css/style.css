@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #8B8BAE;
+}
+
+nav ul {
+	/*padding: 10px;*/
+	overflow: auto;
+	background-color: #262630;
+	list-style: none; /* This takes off the bullet points of list items in unordered list*/
+}
+
+nav li {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	transition: .5s;
+}
+
+nav a:hover {
+	color: #8B8BAE;
+}
+
+.header {
+	padding: 80px 20px;
+	background-image: url("../images/milky-way.jpeg");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
