@@ -39,3 +39,20 @@ nav a:hover {
 	color: #fff;
 	text-align: center;
 }
+
+.main-content {
+	background-color: #262630;
+	color: #fff;
+	padding: 20px;
+	margin: 20px;
+}
+
+.img-50 {
+	width: 50%;
+	display: block;
+}
+
+.star-trails {
+	margin-top: 2%;
+	margin-left: 5%;
+}
