@@ -64,12 +64,11 @@ nav a:hover {
 	margin: 2% 0;
 }
 
-.img-100 {
-	width: 100%;
-	display: block;
-	margin: 2% 0;
+.float-left {
+	float: left;
+	width: 400px;
+	margin: 0 20px 10px 0;
 }
-
 
 /* Forms ====================================================================*/
 
