@@ -9,6 +9,9 @@
 body {
 	background-color: #8B8BAE;
 	font-family: 'Arimo', sans-serif;
+	background-image: url("../images/milky-way-large.jpeg");
+	/*background-size: cover;*/
+	background-attachment: fixed;
 }
 
 h2 {
@@ -23,6 +26,7 @@ nav ul {
 	overflow: auto;
 	background-color: #262630;
 	list-style: none; /* This takes off the bullet points of list items in unordered list*/
+	padding: 10px;
 }
 
 nav li {
@@ -42,32 +46,35 @@ nav a:hover {
 }
 
 .header {
-	padding: 80px 20px;
-	background-image: url("../images/milky-way.jpeg");
-	background-size: cover;
-	background-position: center;
+	padding: 10px 20px;
+	/*background-image: url("../images/galaxy.jpeg");*/
+	/*background-size: cover;*/
+	/*background-position: center;*/
 	color: #fff;
 	text-align: center;
 	font-family: 'Baloo Bhaina', cursive;
 }
 
 .main-content {
+/*Added these two lines to make the content centered in the webpage.*/
+	max-width: 800px;
+	margin: 20px auto;
+/*-------------------------------------------------------------------*/
 	background-color: #262630;
 	color: #fff;
 	padding: 20px;
-	margin: 20px;
 }
 
 .img-50 {
-	width: 50%;
+	width: 25%;
 	display: block;
 	margin: 2% 0;
 }
 
 .float-left {
 	float: left;
-	width: 400px;
-	margin: 0 20px 10px 0;
+	width: 50%;
+	margin: 0 20px 5px 0;
 }
 
 /* Forms ====================================================================*/
