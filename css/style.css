@@ -10,7 +10,7 @@ body {
 	background-color: #8B8BAE;
 	font-family: 'Arimo', sans-serif;
 	background-image: url("../images/milky-way-large.jpeg");
-	/*background-size: cover;*/
+	background-size: cover;
 	background-attachment: fixed;
 }
 
