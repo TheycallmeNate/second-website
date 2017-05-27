@@ -87,16 +87,19 @@ form{
 label {
 	display: block;
 	line-height: 20px;
-	width: 200px;
+	width: 250px;
 	margin: 5px auto;
 }
 
 input {
-	float: right;
+	/*float: right;*/
+	padding-right: 50px;
+	margin: 10px auto;
 }
 
 textarea {
-	padding: 0 65px 30px 0;
+	/*padding: 0 65px 30px 0;*/
+	margin-top: 10px;
 }
 
 button {
@@ -106,6 +109,7 @@ button {
 	background-color: #8B8BAE;
 	color: #fff;
 }
+
 
 
 
