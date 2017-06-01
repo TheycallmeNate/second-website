@@ -6,6 +6,12 @@
 	margin: 0;
 }
 
+.class:after {
+	coontent: "";
+	display: table;
+	clear: both;
+}
+
 body {
 	background-color: #8B8BAE;
 	font-family: 'Arimo', sans-serif;
@@ -20,7 +26,7 @@ h2 {
 
 nav ul {
 	/*padding: 10px;*/
-	overflow: auto;
+	overflow: hidden;
 	background-color: #262630;
 	list-style: none; /* This takes off the bullet points of list items in unordered list*/
 }
